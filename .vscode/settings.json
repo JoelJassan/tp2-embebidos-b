@@ -1,0 +1,20 @@
+{
+   "workbench.colorTheme": "Visual Studio Dark - C++",
+   "git.confirmSync": false,
+   "editor.codeActionsOnSave": {
+      "source.fixAll": false
+   },
+   "editor.formatOnSave": false,
+   "clang-format.executable": "/usr/bin/clang-format",
+   "clang-format.style": "LLVM",
+   "clang-format.language.c.enable": true,
+   "[c]": {
+      "editor.defaultFormatter": "xaver.clang-format",
+      "editor.wordBasedSuggestions": false,
+      "editor.suggest.insertMode": "replace",
+      "editor.semanticHighlighting.enabled": true
+   },
+   "files.associations": {
+      "stdint.h": "c"
+   }
+}

@@ -1,0 +1,35 @@
+BasedOnStyle: LLVM
+UseTab: Never
+IndentWidth: 4
+TabWidth: 4
+BreakBeforeBraces: Attach
+ColumnLimit: 100
+AccessModifierOffset: -4
+
+# Alineado de funciones y Estructuras
+AlignAfterOpenBracket: Align
+AlignArrayOfStructures:  Right
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+
+# Alineado de definiciones
+AlignConsecutiveAssignments:  AcrossEmptyLines
+AlignConsecutiveMacros:       AcrossEmptyLines
+AlignConsecutiveDeclarations: AcrossEmptyLines
+# AlignConsecutiveBitFields:    AcrossEmptyLines
+
+#AlignTrailingComments: 
+#  Kind: Always
+#  OverEmptyLines: 3
+
+# Alineado de bloques
+AllowShortBlocksOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLambdasOnASingleLine: false
+
+# Extras
+FixNamespaceComments: false
+IndentCaseLabels: true
+PointerAlignment: Middle
+SortIncludes: false
